@@ -6,7 +6,7 @@ This is a simple Rock Paper Scissors game implemented in JavaScript. It allows t
 
 Let's immerse ourselves in the world of Rock Paper Scissors! Follow these steps to embark on the journey of excitement:
 
-1. **Navigate to the Game**: Click on the following link to open the game in your web browser: 🎮 [Play Rock Paper Scissors](https://charan-1904.github.io/RPS_Game/)
+1. **Navigate to the Game**: Click on the following link to open the game in your web browser: 🎮 **[Play Rock Paper Scissors](https://charan-1904.github.io/RPS_Game/)**
    
 2. **Choose Your Move**: Once the game loads, select your move by clicking on the corresponding button. Will you choose the mighty Rock, the versatile Paper, or the cunning Scissors? 🤔
 
