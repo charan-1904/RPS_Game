@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            RPS GAME
+        </title>
+        <style>
+            body{
+                background-color: black;
+                color: white;
+            }
+            p{
+                font-family: arial;
+            }
+            .icon{
+                height: 50px;
+            }
+            .icon-button{
+                background: transparent;
+                border: solid;
+                border-color: white;
+                border-width: 4px;
+                height: 100px;
+                width: 100px;
+                border-radius: 50px;
+                margin-right: 10px;
+                margin-bottom: 20px;
+                cursor: pointer;
+            }
+            .RPS-Result{
+                font-weight: bold;
+                font-size: 50px;
+            }
+            .reset-button{
+                background: transparent;
+                color: white;
+                border: solid;
+                font-weight: bold;
+                padding: 20px 40px;
+                font-size: 15px;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: 0.15s;
+                margin-top: 20px;
+            }
+            .reset-button:hover{
+                border-color: black;
+                background-color: white;
+                color: black;
+            }
+        </style>
+    </head>
+        <body>
+            <p>RPS GAME</p>
+            <button 
+            class="icon-button"
+            onclick="
+                game('Rock');
+                ">
+                <img class="icon"
+                src="rock-emoji.png">
+            </button>
+            <button 
+            class="icon-button"
+            onclick="
+                 game('Paper');
+                 ">
+                <img class="icon" src="paper-emoji.png">
+            </button>
+            <button 
+            class="icon-button"
+            onclick="
+                game('Scissor');
+                ">
+                <img class="icon" src="scissor-emoji.png">
+            </button>
+            <p class="RPS-Result"></p>
+            <p class="RPS-Moves"></p>
+            <p class="RPS-score"></p>
+            <button 
+            class="reset-button"
+            onclick="
+            score.Wins=0;
+            score.Loss=0;
+            score.Tie=0;
+            localStorage.removeItem('score');
+            updateScore();
+            ">
+                RESET
+            </button>
+
+            <script src="rps.js"> </script>
+        </body>
+</html>

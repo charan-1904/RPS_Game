@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+}
+p{
+    font-family: arial;
+}
+.icon{
+    height: 50px;
+}
+.icon-button{
+    background: transparent;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+.RPS-Result{
+    font-weight: bold;
+    font-size: 50px;
+}
+.reset-button{
+    background: transparent;
+    color: white;
+    border: solid;
+    font-weight: bold;
+    padding: 20px 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-top: 20px;
+}
+.reset-button:hover{
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+.game-title{
+    font-weight: bold;
+    margin-left: 95px;
+    font-size: 30px;
+}
